@@ -1,7 +1,7 @@
 # ada-2020-project-milestone-p3-p3_illusions
 
 ## 1.Title
-###### Predict the pharmaceutical stock prices with Google Trends data
+###### Predict the pharmaceutical stock price with Google Trends data
 
 ## 2.Abstract
 ###### In the paper the authors illustrated some simple forecasting methods, now since we have confirmed the usefulness of Google Trends data when predicting the present, we are wondering whether we can obtain ideal prediction results in other datasets.
