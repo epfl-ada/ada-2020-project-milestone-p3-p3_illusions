@@ -4,12 +4,15 @@
 ###### Predict the pharmaceutical stock prices with Google Trends data
 
 ## 2.Abstract
-###### In the paper the authors illustrated some simple forecasting methods, now since we have confirmed the usefulness of Google Trends data when predicting the present, we are wondering whether we can obtain ideal prediction results in other datasets.Starting from this idea, combined with current social affairs, we are interested in the development of the pharmaceutical industry during the pandemic. So we take Pfizer Inc. stock price as our new dataset, trying to use Google Trends data to predict the stock price and explore the impact of public opinion on public health on the pharmaceutical industry. Moreover, since the models the authors used were simple, we plan to predict the present with some more sophisticated models to check if we can get better results. We propose to improve the original AR-1 model in two ways. One is to predict the present using continuous time-series data, namely the standard AR model. (In the paper the author only used data at (t - 1) and (t - 12).) Another one is to fit the data using a polynomial of degree N, and the value of N depends on the fitting results, which means that we’ll try different values of N to get the best prediction. We hope that we can explore more factors that affect forecasts through these efforts.
+###### In the paper the authors illustrated some simple forecasting methods, now since we have confirmed the usefulness of Google Trends data when predicting the present, we are wondering whether we can obtain ideal prediction results in other datasets.
+###### Starting from this idea, combined with current social affairs, we are interested in the development of the pharmaceutical industry during the pandemic. So we take Pfizer Inc. stock price as our new dataset, trying to use Google Trends data to predict the stock price and explore the impact of public opinion on public health on the pharmaceutical industry.
+###### Moreover, since the models the authors used were simple, we plan to predict the present with some more sophisticated models to check if we can get better results. We propose to improve the original AR-1 model in two ways. One is to predict the present using continuous time-series data, namely the standard AR model. (In the paper the author only used data at (t - 1) and (t - 12).) Another one is to fit the data using a polynomial of degree N, and the value of N depends on the fitting results, which means that we’ll try different values of N to get the best prediction. We hope that we can explore more factors that affect forecasts through these efforts.
+
 
 ## 3.Research Questions
 ###### 1) What Google Trends data should we choose to improve prediction results?
-###### 2) Will Polynomial Regression have a better performance than linear regression in this case or overfitting may result in higher MAE? (ploy instead of linear)
-###### 3) Will a more sophisticated AR model improve the prediction? (feature augmentation)
+###### 2) How to struct a proper AR-P model for the new dataset?
+###### 3) Will Polynomial Regression have a better performance than linear regression or not? (considering the possibility of overfitting)
 
 ## 4.Proposed dataset
 ###### - Pfizer Inc. (PFE) stock price from 01-11-2010 to 01-11-2020. The data will be collected from “Yahoo! Finance”.
