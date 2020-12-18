@@ -24,7 +24,7 @@ Starting from this idea, combined with current social affairs, we are interested
 
 3) Trends Prediction: Add the Google Trends data to the auto-regressive model, give a new prediction of the stock prices.
 
-4) Comparison: Compare the MAE of the two different predition above. Explore the impact of Google Trends data on the forecasting during some economic turning point periods.
+4) Comparison: Compare the MAE of the two different predicting ways above. Explore the impact of Google Trends data on the forecasting during some economic turning point periods.
 
 ## 6.Proposed timeline
 Week 1: Working on individual replication
