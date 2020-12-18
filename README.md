@@ -18,13 +18,13 @@ Starting from this idea, combined with current social affairs, we are interested
 3) Two categories data include ***health*** and ***finance*** in Google Trends from 01-12-2019 to 01-12-2020.
 
 ## 5.Methods
-1) Data Collection: We will get the stock price dataset from ‘Yahoo! Finance’ and relevant Google Trends dataset from [Google Trends](https://trends.google.com/trends/?geo=US)
+1) Data Collection: We will obtain the stock price dataset from ‘Yahoo! Finance’ and relevant Google Trends dataset from [Google Trends](https://trends.google.com/trends/?geo=US)
 
-2) Base Prediction: 
+2) Base Prediction: Use the basic auto-regressive model to predict the fluctuations of the pharmaceutical stock prices.
 
-3) Trends Prediction: 
+3) Trends Prediction: Add the Google Trends data to the auto-regressive model, give a new prediction of the stock prices.
 
-4) Comparison: 
+4) Comparison: Compare the MAE of the two different predition above. Explore the impact of Google Trends data on the forecasting during some economic turning point periods.
 
 ## 6.Proposed timeline
 Week 1: Working on individual replication
