@@ -1,5 +1,5 @@
 # ada-2020-project-milestone-p3-p3_illusions
-(Note: You can find most of our work in extension_project.ipynb. The model_selection.ipynb is a supplement to this file.)
+Note: You can find most of our work in extension_project.ipynb. The model_selection.ipynb is a supplement to it.
 
 ## 1.Title
 Predict the Pharmaceutical Stock Price with Google Trends Data
