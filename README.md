@@ -1,4 +1,5 @@
 # ada-2020-project-milestone-p3-p3_illusions
+(Note: You can find most of our work in extension_project.ipynb. The model_selection.ipynb is a supplement to this file.)
 
 ## 1.Title
 Predict the Pharmaceutical Stock Price with Google Trends Data
@@ -9,8 +10,9 @@ In the paper the authors illustrated some simple forecasting methods, now since 
 Starting from this idea, combined with current social affairs, we are interested in medical-related topics during the pandemic. This year, the huge impact the pandemic has brought to the world is undeniable. This is not only reflected in the pharmaceutical industry, but also in financial fluctuations. Since the auto-regressive model is a very suitable model for stock price prediction, as an extension, we want to combine Google Trends data to explore the impact of relevant search keywords on the stock price of the pharmaceutical industry. So we take five most well-known stocks from the pharmaceutical industry as our new dataset, trying to use Google Trends data to predict the stock price and explore the impact of public opinion on public health on the pharmaceutical industry.
 
 ## 3.Research Questions
-1) Which Google Trends data can be helpful in improving the prediction results?
-2) How do these Trends data correlate with the stock prices?
+1) Which keywords in Google Trends data can be helpful in improving the prediction results?
+2) Which categories in Google Trends data may can be helpful in improving the prediction results?
+3) How do these Trends data correlate with the stock prices?
 
 ## 4.Proposed dataset
 1) ***GlaxoSmithKline***, ***Johnson &Johnson***, ***Merck & Company, Inc.***, ***Pfizer, Inc.*** and ***Sanofi.*** stock price from 01-11-2010 to 01-11-2020. The data will be collected from ‘Yahoo! Finance’.
