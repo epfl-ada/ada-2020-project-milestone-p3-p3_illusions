@@ -10,7 +10,7 @@ Starting from this idea, combined with current social affairs, we are interested
 
 ## 3.Research Questions
 1) Which Google Trends data can be helpful in improving the prediction results?
-2) If so, how did these Trends data correlate with the stock price?
+2) How do these Trends data correlate with the stock prices?
 
 ## 4.Proposed dataset
 1) ***GlaxoSmithKline***, ***Johnson &Johnson***, ***Merck & Company, Inc.***, ***Pfizer, Inc.*** and ***Sanofi.*** stock price from 01-11-2010 to 01-11-2020. The data will be collected from ‘Yahoo! Finance’.
